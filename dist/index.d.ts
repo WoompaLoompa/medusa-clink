@@ -1,5 +1,5 @@
 /**
- * medusa-bitcoin-lightning-payment-module-via-clink
+ * bitcoin-lightning-payment-module-for-medusajs-via-clink
  *
  * Bitcoin Lightning payment provider for Medusa eCommerce via the CLINK protocol.
  *

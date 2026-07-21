@@ -1,6 +1,6 @@
 "use strict";
 /**
- * medusa-bitcoin-lightning-payment-module-via-clink
+ * bitcoin-lightning-payment-module-for-medusajs-via-clink
  *
  * Bitcoin Lightning payment provider for Medusa eCommerce via the CLINK protocol.
  *
@@ -31,7 +31,7 @@ var utils_1 = require("./modules/clink/utils");
 Object.defineProperty(exports, "CurrencyService", { enumerable: true, get: function () { return utils_1.CurrencyService; } });
 // Plugin metadata
 exports.plugin = {
-    name: "medusa-bitcoin-lightning-payment-module-via-clink",
+    name: "bitcoin-lightning-payment-module-for-medusajs-via-clink",
     description: "Bitcoin Lightning payment provider for Medusa via CLINK protocol",
     version: "1.0.0",
     license: "GPL-3.0"

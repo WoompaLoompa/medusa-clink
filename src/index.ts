@@ -1,5 +1,5 @@
 /**
- * medusa-bitcoin-lightning-payment-module-via-clink
+ * bitcoin-lightning-payment-module-for-medusajs-via-clink
  * 
  * Bitcoin Lightning payment provider for Medusa eCommerce via the CLINK protocol.
  * 
@@ -15,7 +15,7 @@ export { CurrencyService } from "./modules/clink/utils"
 
 // Plugin metadata
 export const plugin = {
-  name: "medusa-bitcoin-lightning-payment-module-via-clink",
+  name: "bitcoin-lightning-payment-module-for-medusajs-via-clink",
   description: "Bitcoin Lightning payment provider for Medusa via CLINK protocol",
   version: "1.0.0",
   license: "GPL-3.0"

@@ -1,4 +1,4 @@
-# Contributing to medusa-bitcoin-lightning-payment-module-via-clink
+# Contributing to bitcoin-lightning-payment-module-for-medusajs-via-clink
 
 Thank you for your interest in contributing! This document provides guidelines and information for contributors.
 
@@ -6,7 +6,7 @@ Thank you for your interest in contributing! This document provides guidelines a
 
 ### Reporting Bugs
 
-1. Check [existing issues](https://github.com/shocknet/medusa-bitcoin-lightning-payment-module-via-clink/issues) to avoid duplicates
+1. Check [existing issues](https://github.com/WoompaLoompa/medusa-clink/issues) to avoid duplicates
 2. Create a new issue using the **Bug Report** template
 3. Include:
    - Medusa version
@@ -18,7 +18,7 @@ Thank you for your interest in contributing! This document provides guidelines a
 
 ### Suggesting Features
 
-1. Check [existing discussions](https://github.com/shocknet/medusa-bitcoin-lightning-payment-module-via-clink/discussions)
+1. Check [existing discussions](https://github.com/WoompaLoompa/medusa-clink/discussions)
 2. Create a new issue using the **Feature Request** template
 3. Describe the use case and expected behavior
 
@@ -46,7 +46,7 @@ Thank you for your interest in contributing! This document provides guidelines a
 
 ```bash
 # Clone the repo
-git clone https://github.com/shocknet/medusa-bitcoin-lightning-payment-module-via-clink.git
+git clone https://github.com/WoompaLoompa/medusa-clink.git
 
 # Install dependencies
 npm install
@@ -173,6 +173,6 @@ test: add currency service tests
 
 ## Questions?
 
-- Open a [Discussion](https://github.com/shocknet/medusa-bitcoin-lightning-payment-module-via-clink/discussions)
-- Check the [Wiki](https://github.com/shocknet/medusa-bitcoin-lightning-payment-module-via-clink/wiki)
+- Open a [Discussion](https://github.com/WoompaLoompa/medusa-clink/discussions)
+- Check the [Wiki](https://github.com/WoompaLoompa/medusa-clink/wiki)
 - Read the [CLINK Protocol](https://clinkme.dev) docs

@@ -312,7 +312,7 @@ export function ClinkSettingsWidget({ provider, onSave }: ClinkSettingsWidgetPro
               <li>Enable in <strong>Settings → Regions</strong></li>
             </ol>
             <p>
-              <a href="https://github.com/shocknet/medusa-bitcoin-lightning-payment-module-via-clink/wiki/Getting-Started" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/WoompaLoompa/medusa-clink/wiki/Getting-Started" target="_blank" rel="noopener noreferrer">
                 Read the full getting started guide →
               </a>
             </p>
