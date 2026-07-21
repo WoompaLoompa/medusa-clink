@@ -131,7 +131,7 @@ No web server needed for your Lightning node. All communication flows over Nostr
   - [Lightning.Pub](https://lightning.pub) (self-hosted)
   - [ZEUS](https://zeusln.com) (iOS/Android)
   - [Amethyst](https://amethyst.social) (Android)
-  - Electrum [plugin](https://github.com/BareBits/electrum_clink) (Desktop)
+  - [Electrum](https://electrum.org) with [CLINK plugin](https://github.com/BareBits/electrum_clink) (Desktop)
 
 ## Configuration Options
 
@@ -151,8 +151,8 @@ See the [Configuration Wiki page](https://github.com/WoompaLoompa/medusa-clink/w
 
 ## Supported Wallets
 
-**For Merchants** (to get your nOffer):
-- [ShockWallet](https://shockwallet.app) - Receive > CLINK Offer
+**For Merchants** (to get your `nOffer`):
+- [ShockWallet](https://shockwallet.app) - Menu > Static Offer
 - [Lightning.Pub](https://lightning.pub) - Dashboard > Offers
 - [ZEUS](https://zeusln.com) - Settings > CLINK
 
@@ -160,7 +160,7 @@ See the [Configuration Wiki page](https://github.com/WoompaLoompa/medusa-clink/w
 - [ShockWallet](https://shockwallet.app)
 - [ZEUS](https://zeusln.com)
 - [Amethyst](https://amethyst.social)
-- [Electrum](https://electrum.org) with CLINK plugin
+- [Electrum](https://electrum.org) with [CLINK plugin](https://github.com/BareBits/electrum_clink)
 - Any CLINK-compatible wallet
 
 ## Development
