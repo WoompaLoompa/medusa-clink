@@ -1,7 +1,7 @@
 {
   "name": "medusa-bitcoin-lightning-payment-module-via-clink",
   "version": "1.0.0",
-  "description": "Bitcoin Lightning payment provider for Medusa eCommerce via the CLINK protocol",
+  "description": "Bitcoin Lightning payment module for Medusa eCommerce via the CLINK protocol",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -57,12 +57,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/shocknet/medusa-bitcoin-lightning-payment-module-via-clink"
+    "url": "https://github.com/WoompaLoompa/medusa-clink/"
   },
   "bugs": {
-    "url": "https://github.com/shocknet/medusa-bitcoin-lightning-payment-module-via-clink/issues"
+    "url": "https://github.com/WoompaLoompa/medusa-clink/issues"
   },
-  "homepage": "https://github.com/shocknet/medusa-bitcoin-lightning-payment-module-via-clink#readme",
+  "homepage": "https://github.com/WoompaLoompa/medusa-clink#readme",
   "engines": {
     "node": ">=18.0.0"
   }
