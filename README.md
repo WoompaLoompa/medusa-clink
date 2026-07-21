@@ -161,7 +161,7 @@ See the [Configuration Wiki page](https://github.com/WoompaLoompa/medusa-clink/w
 - [ZEUS](https://zeusln.com)
 - [Amethyst](https://amethyst.social)
 - [Electrum](https://electrum.org) with [CLINK plugin](https://github.com/BareBits/electrum_clink)
-- Any CLINK-compatible wallet
+- Any [CLINK-compatible wallet](https://clinkme.dev/apps.html)
 
 ## Development
 
