@@ -1,11 +1,8 @@
 # medusa-bitcoin-lightning-payment-module-via-clink
 
-Bitcoin Lightning payment provider for [Medusa](https://medusajs.com/) eCommerce via the [CLINK protocol](https://clinkme.dev).
+Bitcoin Lightning payment module for [Medusa](https://medusajs.com/) eCommerce via the [CLINK protocol](https://clinkme.dev).
 
-[![npm version](https://img.shields.io/npm/v/medusa-bitcoin-lightning-payment-module-via-clink.svg)](https://www.npmjs.com/package/medusa-bitcoin-lightning-payment-module-via-clink)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Medusa v2](https://img.shields.io/badge/Medusa-v2-green.svg)](https://docs.medusajs.com/)
-[![CLINK](https://img.shields.io/badge/Protocol-CLINK-orange.svg)](https://clinkme.dev)
+[![npm version](https://img.shields.io/npm/v/medusa-bitcoin-lightning-payment-module-via-clink.svg)](https://www.npmjs.com/package/medusa-bitcoin-lightning-payment-module-via-clink) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Medusa v2](https://img.shields.io/badge/Medusa-v2-green.svg)](https://docs.medusajs.com/) [![CLINK](https://img.shields.io/badge/Protocol-CLINK-orange.svg)](https://clinkme.dev)
 
 ## Features
 
@@ -22,7 +19,7 @@ Bitcoin Lightning payment provider for [Medusa](https://medusajs.com/) eCommerce
 ## What's in the Box
 
 | Component | Description |
-|-----------|-------------|
+| --- | --- |
 | `ClinkPaymentProviderService` | Core payment provider with CLINK SDK integration |
 | `CurrencyService` | Fiat-to-sats conversion (CoinGecko, Kraken, Fixed, Manual) |
 | `SubscriptionService` | Recurring payments via nDebit protocol |
@@ -43,7 +40,7 @@ npm install medusa-bitcoin-lightning-payment-module-via-clink
 
 Add to your `medusa-config.ts`:
 
-```typescript
+```ts
 import { Modules } from "@medusajs/framework/utils"
 
 module.exports = defineConfig({
@@ -81,10 +78,17 @@ Customers can now pay with Lightning at checkout.
 
 ## Documentation
 
-- [Merchant Guide](docs/merchant-guide.md) - Setup and configuration
-- [Customer Guide](docs/customer-guide.md) - How customers pay
-- [Subscription Guide](docs/subscription-guide.md) - nDebit auto-renewal setup
-- [GitHub Wiki](https://github.com/shocknet/medusa-bitcoin-lightning-payment-module-via-clink/wiki) - Full documentation
+Full documentation lives on the [GitHub Wiki](https://github.com/WoompaLoompa/medusa-clink/wiki):
+
+- [Getting Started](https://github.com/WoompaLoompa/medusa-clink/wiki/Getting-Started)
+- [Configuration](https://github.com/WoompaLoompa/medusa-clink/wiki/Configuration)
+- [Guide for Merchants](https://github.com/WoompaLoompa/medusa-clink/wiki/Guide-for-Merchants)
+- [Guide for Customers](https://github.com/WoompaLoompa/medusa-clink/wiki/Guide-for-Customers)
+- [Guide for Subscriptions](https://github.com/WoompaLoompa/medusa-clink/wiki/Guide-for-Subscriptions)
+- [Currency Sources](https://github.com/WoompaLoompa/medusa-clink/wiki/Currency-Sources)
+- [Troubleshooting](https://github.com/WoompaLoompa/medusa-clink/wiki/Troubleshooting)
+- [FAQ](https://github.com/WoompaLoompa/medusa-clink/wiki/Frequently-Asked-Questions)
+- [Changelog](https://github.com/WoompaLoompa/medusa-clink/wiki/Changelog)
 
 ## How It Works
 
@@ -116,21 +120,23 @@ Customers can now pay with Lightning at checkout.
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-No web server needed for your Lightning node. All communication flows over Nostr.
+No web server needed for your Lightning node. All communication flows over Nostr. See the [Wiki architecture page](https://github.com/WoompaLoompa/medusa-clink/wiki#architecture) for the full data flow.
 
 ## Requirements
 
 - Medusa v2.x
 - Node.js >= 18.0.0
 - A CLINK-compatible Lightning wallet/node:
-  - [ShockWallet](https://shockwallet.app) (iOS/Android)
+  - [ShockWallet](https://shockwallet.app) (iOS/Android/Desktop)
   - [Lightning.Pub](https://lightning.pub) (self-hosted)
   - [ZEUS](https://zeusln.com) (iOS/Android)
+  - [Amethyst](https://amethyst.social) (Android)
+  - Electrum [plugin](https://github.com/BareBits/electrum_clink) (Desktop)
 
 ## Configuration Options
 
 | Option | Type | Required | Default | Description |
-|--------|------|----------|---------|-------------|
+| --- | --- | --- | --- | --- |
 | `noffer` | string | Yes | - | Your CLINK offer string |
 | `currencySource` | string | No | `coingecko` | Exchange rate source |
 | `fixedBtcRate` | number | No | - | Fixed BTC rate (if using `fixed` source) |
@@ -141,14 +147,16 @@ No web server needed for your Lightning node. All communication flows over Nostr
 | `refundContactNostr` | string | No | - | Merchant Nostr for refunds |
 | `debug` | boolean | No | `false` | Enable debug logging |
 
+See the [Configuration Wiki page](https://github.com/WoompaLoompa/medusa-clink/wiki/Configuration) for details on each option.
+
 ## Supported Wallets
 
-### For Merchants (to get nOffer)
+**For Merchants** (to get your nOffer):
 - [ShockWallet](https://shockwallet.app) - Receive > CLINK Offer
 - [Lightning.Pub](https://lightning.pub) - Dashboard > Offers
 - [ZEUS](https://zeusln.com) - Settings > CLINK
 
-### For Customers (to pay)
+**For Customers** (to pay):
 - [ShockWallet](https://shockwallet.app)
 - [ZEUS](https://zeusln.com)
 - [Amethyst](https://amethyst.social)
