@@ -1,6 +1,6 @@
 # medusa-bitcoin-lightning-payment-module-via-clink
 
-Bitcoin Lightning payment module for [Medusa](https://medusajs.com/) eCommerce via the [CLINK protocol](https://clinkme.dev).
+[Bitcoin](https://bitcoin.org/bitcoin.pdf) [Lightning](https://Lightning.network) payment module for [Medusa](https://medusajs.com/) eCommerce via the [CLINK protocol](https://clinkme.dev).
 
 [![npm version](https://img.shields.io/npm/v/medusa-bitcoin-lightning-payment-module-via-clink.svg)](https://www.npmjs.com/package/medusa-bitcoin-lightning-payment-module-via-clink) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Medusa v2](https://img.shields.io/badge/Medusa-v2-green.svg)](https://docs.medusajs.com/) [![CLINK](https://img.shields.io/badge/Protocol-CLINK-orange.svg)](https://clinkme.dev)
 
