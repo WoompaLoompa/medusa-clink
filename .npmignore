@@ -1,0 +1,43 @@
+# Source files (only dist/ is published)
+src/
+admin/
+
+# Tests
+__tests__/
+__mocks__/
+*.test.ts
+*.spec.ts
+
+# Config files
+tsconfig*.json
+jest.config.js
+.eslintrc*
+.prettierrc*
+
+# Documentation (not needed in npm package)
+docs/
+wiki/
+.github/
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies (npm installs these)
+node_modules/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Misc
+.env
+.env.*
