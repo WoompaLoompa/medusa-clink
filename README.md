@@ -1,8 +1,8 @@
-# bitcoin-lightning-payment-module-for-medusajs-via-clink
+# medusa-plugin-bitcoin-lightning-via-clink
 
 [Bitcoin](https://bitcoin.org/bitcoin.pdf) [Lightning](https://Lightning.network) payment module for [MedusaJS](https://medusajs.com/) eCommerce via the [CLINK protocol](https://clinkme.dev).
 
-[![npm version](https://img.shields.io/npm/v/bitcoin-lightning-payment-module-for-medusajs-via-clink.svg)](https://www.npmjs.com/package/bitcoin-lightning-payment-module-for-medusajs-via-clink) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Medusa v2](https://img.shields.io/badge/Medusa-v2-green.svg)](https://docs.medusajs.com/) [![CLINK](https://img.shields.io/badge/Protocol-CLINK-orange.svg)](https://clinkme.dev)
+[![npm version](https://img.shields.io/npm/v/medusa-plugin-bitcoin-lightning-via-clink.svg)](https://www.npmjs.com/package/medusa-plugin-bitcoin-lightning-via-clink) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Medusa v2](https://img.shields.io/badge/Medusa-v2-green.svg)](https://docs.medusajs.com/) [![CLINK](https://img.shields.io/badge/Protocol-CLINK-orange.svg)](https://clinkme.dev)
 
 ## Features
 
@@ -33,7 +33,7 @@
 ### 1. Install
 
 ```bash
-npm install -bitcoin-lightning-payment-module-for-medusajs-via-clink
+npm install medusa-plugin-bitcoin-lightning-via-clink
 ```
 
 ### 2. Configure
@@ -50,7 +50,7 @@ module.exports = defineConfig({
       options: {
         providers: [
           {
-            resolve: "bitcoin-lightning-payment-module-for-medusajs-via-clink",
+            resolve: "medusa-plugin-bitcoin-lightning-via-clink",
             id: "clink",
             options: {
               noffer: "noffer1...", // Your CLINK offer string
