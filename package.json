@@ -1,6 +1,6 @@
 {
   "name": "medusa-plugin-bitcoin-lightning-via-clink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bitcoin Lightning payment module for Medusa eCommerce via the CLINK protocol",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -41,8 +41,10 @@
   "license": "GPL-3.0",
   "keywords": [
     "medusa",
+    "medusa-v2",
     "medusa-plugin",
     "medusa-plugin-integration",
+    "medusa-plugin-payment",
     "medusa-payment",
     "bitcoin",
     "lightning",
