@@ -194,3 +194,7 @@ GPL-3.0 - See [LICENSE](LICENSE) for details.
 - [Discussions](https://github.com/WoompaLoompa/medusa-clink/discussions)
 - [CLINK Protocol](https://clinkme.dev)
 - [Medusa Documentation](https://docs.medusajs.com/)
+
+## Other Conversations
+- In Medusa GH forum: https://github.com/medusajs/medusa/discussions/16162
+- In Medusa Discord: https://discord.com/channels/876835651130097704/1529853260276437123
