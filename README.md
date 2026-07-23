@@ -1,4 +1,5 @@
 ![icon](https://raw.githubusercontent.com/WoompaLoompa/medusa-clink/refs/heads/main/assets/medusa-plugin-bitcoin-lightning-via-clink.png)
+
 # medusa-plugin-bitcoin-lightning-via-clink
 
 [Bitcoin](https://bitcoin.org/bitcoin.pdf) [Lightning](https://Lightning.network) payment module for [MedusaJS](https://medusajs.com/) eCommerce via the [CLINK protocol](https://clinkme.dev).
